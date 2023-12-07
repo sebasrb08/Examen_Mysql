@@ -331,5 +331,29 @@ Respuesta
 +--------------------+
 ````
 
+10 Nombres de Zonas y cantidad de rutas que tienen programadas (Contar)
 
+````
+SELECT DISTINCT zona.nombre_zona, rutas.nombre
+FROM dia
+INNER JOIN rutas
+ON dia.id_ruta = rutas.id
+INNER JOIN zona 
+ON rutas.id_zona = zona.id
+````
+Respuesta
+
+````
++---------------+---------------+
+| nombre_zona   | nombre        |
++---------------+---------------+
+| Norte         | Universidades |
+| Norte         | Café Madrid   |
+| Occidente     | Diamantes     |
+| Occidente     | Terminal      |
+| Floridablanca | Niza          |
+| Floridablanca | Autopista     |
+| Floridablanca | Lagos         |
++---------------+---------------+
+````
 
