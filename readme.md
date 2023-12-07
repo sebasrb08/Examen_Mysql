@@ -1,5 +1,10 @@
 #  Examen Ruta de viajes
 
+## Diagrama Relacional
+
+![drawSQL-rutas-de-viaje-export-2023-12-07](https://github.com/sebasrb08/Examen_Mysql/assets/118924181/48a23b9f-1657-45b8-a5fb-7714fd0f1982)
+
+
 ## Creacion de bases de datos
 ````
 CREATE TABLE zona(
