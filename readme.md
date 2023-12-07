@@ -1,5 +1,10 @@
 #  Examen Ruta de viajes
 
+## Diagrama entidad-relacion
+
+![Tablero en blanco](https://github.com/sebasrb08/Examen_Mysql/assets/118924181/b8bb8f53-5273-4b39-a669-275c1e059150)
+
+
 ## Diagrama Relacional
 
 ![drawSQL-rutas-de-viaje-export-2023-12-07](https://github.com/sebasrb08/Examen_Mysql/assets/118924181/48a23b9f-1657-45b8-a5fb-7714fd0f1982)
